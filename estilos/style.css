@@ -16,6 +16,11 @@ laranja brabo: #E8491D
  text-decoration: none;
 }
 
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
 header {
  background:#35424A;
  height: 170px;
@@ -50,4 +55,35 @@ nav a {
 nav a:hover {
   color: #E8491D;
   background-color: #273137;
+}
+
+section#principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url('../imagens/pc.jpeg');
+  padding: 40px;
+  row-gap: 70px;
+}
+
+section#principal h1 {
+  display: flex;
+  color: white;
+  font-size: 55px;
+  line-height: 80px;
+  text-align: center;
+  max-width: 800px;
+
+}
+
+section#principal p {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  max-width: 800px;
+  background-color: ;
 }
