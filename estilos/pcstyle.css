@@ -1,0 +1,55 @@
+header {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ padding: 32px 200px 32px 200px ;
+}
+
+ul  {  
+  flex-direction: row;
+  gap: 40px;
+}
+
+section#principal {
+ gap: 50px
+}
+
+section#newsletter {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px 150px 32px 150px ;
+}
+
+section#newsletter h2 {
+  text-align: center;
+}
+
+form {
+  flex-direction: row;
+}
+
+form input#email {
+ width: 20vw;
+ max-width: 300px;
+}
+
+input#subscribe {
+  width: 20vw;
+  max-width: 300px;
+}
+
+section#frontend {
+  flex-direction: row;
+  gap: 20px;
+}
+
+section#frontend div {
+  
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+section#frontend img,h2,p {
+  margin: 15px;
+}
