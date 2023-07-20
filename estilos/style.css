@@ -37,6 +37,7 @@ header {
 
 header h1 {
   color: white;
+  text-align: center;
 }
 
 ul {
@@ -44,6 +45,7 @@ ul {
   color: white;
   font-size: 35px;
   text-align: center;
+  flex-direction: column;
 }
 
 header span {
@@ -52,7 +54,7 @@ header span {
 
 nav a {
  color: white;
-  
+ 
  display: flex;
  justify-content: center;
   
